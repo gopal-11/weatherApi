@@ -15,7 +15,7 @@ function App() {
         return response.json();
       })
       .then((result)=>{
-        console.log("Result is result",result);
+        console.log("Result is ",result);
         setCityWeather(result);
     })
     .catch((error)=>{
